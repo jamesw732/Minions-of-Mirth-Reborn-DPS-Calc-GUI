@@ -1,6 +1,6 @@
 # Minions-of-Mirth-Reborn-DPS-Calc
 
-This is probably the worst written GUI program every created (my first time using tkinter).
+This is probably the worst written GUI program ever created (my first time using tkinter).
 
 ## Some notes on use
 1. This program may not work if your name has the word "for" at the end of it. This might be a simple fix.
