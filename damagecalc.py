@@ -1,7 +1,9 @@
 import re
 import time
+from pathlib import Path
 
-gamelog = "C:\MoMReborn\logs\game.txt" # this is where every game message is stored
+home = str(Path.home())
+gamelog = home + r"\Downloads\MoMReborn\MoMReborn\logs\game.txt" # this is where every game message is stored
 damageraw = "damagecopy.txt"
 output = "output.txt"
 
