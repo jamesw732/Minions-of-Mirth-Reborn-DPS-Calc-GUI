@@ -15,7 +15,6 @@ def setLastLine():
     with open(gamelog) as initialGameLog:
         global lastLine
         lastLine = initialGameLog.readlines()[-2]
-        print(lastLine)
         initialGameLog.close()
     global startTime
     startTime = time.time()
